@@ -1,0 +1,24 @@
+.kontener 
+{
+    margin: auto;
+    width: 826px;
+    height: 465px;
+    background-image: url(tlo.jpg);
+}
+
+.ramka 
+{
+    float: left;
+    height: 153px;
+    width: 273px;
+}
+
+footer 
+{
+    background-color: white;
+    color: black;
+    width: 800px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+}

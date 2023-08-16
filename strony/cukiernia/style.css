@@ -1,0 +1,357 @@
+        *{
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #32271F;
+        }
+        main{
+            
+            width:  1440px;
+            height: 3681px;
+            background-color: whitesmoke;
+        }
+        #banner{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            height: 263px;
+            background: #523E2D;
+        }
+        #logo1{
+            width: 128px;
+            height: 128px;
+            
+            background: url(jpg/logo.png);
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+        }
+        #logo2{
+            width: 128px;
+            height: 128px;
+
+            background: url(jpg/logo.png);
+        }
+        #logo-text{
+            width: 514px;
+            height: 80px;
+            text-align: center;
+
+            font-family: 'Playball';
+            font-size: 64px;
+
+            text-align: center;
+
+            color: #FEAD4D;
+            word-spacing: 20px;
+            text-decoration: none;
+        }
+        #top-bar{
+            display: flex;
+            justify-content: center;
+        }
+        #menu{
+            position: absolute;
+            top: 195px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 1161px;
+            height: 82px;
+            background: #32271F;
+            border-radius: 50px;
+        }
+        .menu-btn{
+            display: flex;
+            width: 214px;
+            height: 50px;
+            background: #FFCA9C;
+            border-radius: 50px;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Playball';
+            font-size: 27px;
+            text-align: center;
+            filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+            color: #000000;
+        }
+        a{
+            color: #32271F;
+            text-decoration: none;
+        }
+        #background{
+            display: flex;
+            justify-content: center;
+            
+            margin-top: -2%;
+            width: 100%;
+            height: 900px;
+            background: url(jpg/top.jpg);
+            background-size:cover;
+        }
+        #background > span {
+            display: flex;
+            justify-content: center;
+            font-family: 'Playball';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 45px;
+            line-height: 400%;
+            text-align: center;
+            color: #523E2D;
+        }
+        #check-menu-btn{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            width: 511px;
+            height: 82px;
+            top: 642px;
+            background: #FFCA9C;
+            border-radius: 50px;
+            filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+            font-family: 'Playball';
+            font-size: 48px;
+            border: none;
+            text-align: center;
+            color: #32271F;
+        }
+        #line-offer{
+            width: 100%;
+            height: 26px;
+            background: #32271F;
+        }
+        #line-bar-offer{
+            position: absolute;
+            margin-top: -30px;
+            width: 511px;
+            height: 82px;
+            background: #32271F;
+            border-radius: 50px;
+        }
+        .all-lines{
+            display: flex;
+            justify-content: center;
+        }
+        #line-bar-offer > span{
+            display: flex;
+            justify-content: center;
+            width: 489px;
+            height: 80px;
+            font-family: 'Playball';
+            font-size: 64px;
+            text-align: center;
+            color: #FEAD4D;
+        }
+        #offer{
+            background-color: white;
+            height: 380px;
+        }
+        #offers{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 84px;
+        }
+        figure{
+            text-align: center;
+            font-family: 'Playball';
+            font-size: 35px;
+            color: #523E2D;
+        }
+        #line-aboutus{
+            width: 100%;
+            height: 26px;
+            background:#32271F;
+        }
+        #line-bar-aboutus{
+            position: absolute;
+            margin-top: -30px;
+            width: 511px;
+            height: 82px;
+            background: #32271F;
+            border-radius: 50px;
+        }
+        #line-bar-aboutus > span{
+            display: flex;
+            justify-content: center;
+            font-family: 'Playball';
+            font-style: normal;
+            font-size: 64px;
+            text-align: center;
+            color: #FEAD4D;
+        }
+        #aboutus{
+            height: 1300px;
+        }
+        #aboutus-p{
+            font-family: 'Playball';
+            font-size: 58px;
+            margin-top: 35px;
+            color: #32271F;
+            text-align: center;
+        }
+        #f-left,#f-right{
+            margin-top: 25px;
+        }
+        #f-left{
+            text-align: justify;
+            width: 950px;
+            font-family: 'Pangolin';
+            font-size: 48px;
+            color: #32271F;
+            margin-left: 55px;
+        }
+        #f-right{
+            position: absolute;
+            margin-top: -350px;
+            margin-left: 1100px;
+        }
+        #s-left,#s-right{
+            margin-top: 25px;
+        }
+        #s-left{
+            position: absolute;
+            margin-top:180px;
+            margin-left: 50px;
+        }
+        #s-right{
+            position: absolute;
+            width: 850px;
+            font-family: 'Pangolin';
+            font-size: 48px;
+            margin-left:500px;
+            text-align: justify;
+            color: #32271F;
+        }
+        #line-contact{
+            height: 26px;
+            background: #32271F;
+        }
+        #line-bar-contact > span{
+            font-family: 'Playball';
+            font-size: 64px;
+            text-align: center;
+            color: #FEAD4D;
+        }
+        #line-bar-contact{
+            position: absolute;
+            margin-top: -30px;
+            width: 511px;
+            height: 82px;
+            background: #32271F;
+            border-radius: 50px;
+            text-align: center;
+        }
+        #form-text{
+            font-family: 'Playball';
+            font-size: 45px;
+            color: #523E2D;
+            position: absolute;
+            display: flex;
+            margin-top:40px;
+            left: 50%;
+            transform: translate(-50%);
+
+        }
+        form{
+            margin-top: 120px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        label{
+            text-align: center;
+            font-family: 'Playball';
+            font-size: 20px;
+            text-align: justify;
+            color: #32271F;
+        }
+        input{
+            width: 456px;
+            border: 1px solid #32271F;
+            background:#523E2D;
+            font-size: 28px;
+            color: white;
+        }
+        textarea{
+            border: 1px solid #32271F;
+            background:#523E2D;
+            color: white;
+            width: 456px;
+            font-size: 28px;
+        }
+        input[type="submit"]{
+            width: 190px;
+            height: 31px;
+            background: #32271F;
+            border-radius: 50px;
+
+            font-family: 'Playball';
+            font-size: 20px;
+            text-align: justify;
+            color: #FFBD86;
+            text-align: center;
+            margin: auto;
+        }
+        #line-footer{
+            position: absolute;
+            top: 3630px;
+            width: 1440px;
+            height: 2px;
+            background: #32271F;
+        }
+        .container{
+            position: absolute;
+            font-size: 19px;
+            top: 3650px;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        @media screen and (max-width: 1440px) {
+            main{
+                width: 90%;
+            }
+            #banner{
+                align-items: center;
+                width: 100%;
+                height: 263px;
+                background: #523E2D;
+            }
+            #menu{
+                width: 80%;
+            }
+            .menu-btn{
+                width: 20%;
+                font-size: 120%;
+            }
+            #f-left{
+                text-align: justify;
+                width: 90%;
+                font-size: 220%;
+            }
+            #f-right{
+                display: none;
+            }
+            #s-left,#s-right{
+                margin-top: 25px;
+            }
+            #s-left{
+                position: absolute;
+                margin-top:180px;
+                margin-left: 50px;
+            }
+            #s-right{
+                position: absolute;
+                width: 850px;
+                font-family: 'Pangolin';
+                font-size: 48px;
+                margin-left:500px;
+                text-align: justify;
+                color: #32271F;
+            }
+        }

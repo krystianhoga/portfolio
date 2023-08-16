@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang = "pl">
+<head> 
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section id = "banner">
+            <section id = "logo1"></section>
+            <h1><a href = "#banner" id = "logo-text">SWEET DREAMS</a></h1>
+            <section id = "logo2"></section>
+        </section>
+
+          <section id = "top-bar">
+            <section id = "menu">
+              <section class = "menu-btn">
+                <a href = "#banner" class = "navigation">Strona główna</a>
+              </section>
+              <section class="menu-btn">
+                <a href="#offer" class="navigation">Oferta</a>
+              </section>
+              <section class="menu-btn">
+                <a href="#aboutus" class="navigation">O nas</a>
+              </section>
+              <section class="menu-btn">
+                <a href="#contact" class="navigation">Kontakt</a>
+              </section>
+            </section>
+          </section>
+
+          <section id="background">
+            <span>Cukiernia Sweet Dreams - Najlepsza cukiernia w Lublinie</span>
+            <input type=button onClick="window.open('menu.pdf', '_blank')" value='Sprawdź Nasze Menu' id="check-menu-btn">
+          </section>
+
+          <section id="offer">
+            <section class="all-lines">
+                <section id="line-offer"></section>
+                <section id="line-bar-offer">
+                  <span>Oferta cukierni</span>
+                </section>
+            </section>
+            <section id="offers">
+              <figure>
+                <img src="jpg/ikona1.png" alt="cofee">
+                <figcaption>Kawa</figcaption>
+              </figure>
+              <figure>
+                <img src="jpg/ikona2.png" alt="fruits">
+                <figcaption>Owoce</figcaption>
+              </figure>
+              <figure>
+                <img src="jpg/ikona3.png" alt="sweets">
+                <figcaption>Słodycze</figcaption>
+              </figure>
+            </section>
+          </section>
+
+          <section id="aboutus">
+            <section class="all-lines">
+                <section id="line-aboutus"></section>
+                <section id="line-bar-aboutus">
+                    <span>O nas</span>
+                </section>
+            </section>
+              <p id="aboutus-p">Nasi cukiernicy uczyli się od mistrzów cukiernictwa z Francji!</p>
+              <section id="f-left">
+                <span>
+                  Cukiernia powstała w 1972 roku w Lublinie. Jest rodzinną firmą specjalizującą się w produkcji różnego rodzaju wyrobów ciastkarskich, 
+                  deserów, potrawy śniadaniowych. Nasza cukiernia cieszy się dużym uznanie, klientów, którzy bardzo chwalą wysokie walory smakowe, różnorodność 
+                  dodatków i dekoracji. Firma stosuje naturalne składniki bez konserwantów.
+                </span>
+              </section>
+              <section id="f-right">
+                <img src="jpg/kucharz.png" alt="baker">
+              </section>
+              <section id="s-left">
+                <img src="jpg/kucharz.png" alt="baker">
+              </section>
+              <section id="s-right">
+                <span>
+                  Cukiernia działa na terenie Lublina. Cukiernia stosuje tradycyjne metody, sprawdzone receptury oraz proces produkcji pozbawiony 
+                  konserwantów i środków chemicznych. Podstawowym asortymentem są różnego rodzaju wyroby ciastkarskie i desery, napoje gorące, 
+                  potrawy śniadaniowe oraz towary handlowe.
+                </span>
+              </section>
+            </section>
+
+                <section id="contact">
+                    <section class="all-lines">
+                        <section id="line-bar-contact">
+                            <span>Kontakt</span>
+                        </section>
+                    </section>
+                    <section id="line-contact"></section>
+                </section>
+                <span id="form-text">Masz do nas pytanie? Pisz!</span>
+                <form>
+                  <label for="l-s-name">Imię i nazwisko</label><br>
+                  <input type="text" name="l-s-name" id="l-s-name"><br>
+                  <label for="email">E-mail</label><br>
+                  <input type="email" id="email" type="email"><br>
+                  <label for="phone-nmbr">Telefon</label><br>
+                  <input type="number" name="phone-nmbr" id="phone-nmbr"><br>
+                  <label for="question">Zapytanie</label><br>
+                  <textarea type="text" name="question" id="question" cols="30" rows="5"></textarea><br>
+                  <input type="submit" value="Wyślij">
+                </form>
+              </section>
+
+              <footer>
+                <section id="line-footer"></section>
+                <div class="container">
+                  <p>
+                    &copy; Strona cukierni | ul. Cukiernicza 12, 20-111 Lublin | tel. (81)
+                    444-33-11, e-mail: cukiernia@sweetdreams.com
+                  </p>
+                </div>
+              </footer> 
+    </main>
+</body>
+</html>
